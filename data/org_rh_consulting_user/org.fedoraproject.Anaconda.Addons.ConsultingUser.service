@@ -1,0 +1,6 @@
+[D-BUS Service]
+# Start the org.fedoraproject.Anaconda.Addons.ConsultingUser service.
+# Runs org_rh_consulting_user/service/__main__.py
+Name=org.fedoraproject.Anaconda.Addons.ConsultingUser
+Exec=/usr/libexec/anaconda/start-module org_rh_consulting_user.service
+User=root
