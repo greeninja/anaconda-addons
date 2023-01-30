@@ -18,7 +18,7 @@ from org_rh_consulting_user.constants import CONSULTING_USER
 
 log = logging.getLogger(__name__)
 
-__all__ = ["UserSpoke", "UserEditSpoke"]
+__all__ = ["UserSpoke"]
 
 
 def _(x): return x
